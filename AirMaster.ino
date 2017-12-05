@@ -85,7 +85,7 @@ bool colissionState = false;
 void setup() 
 {
   // LCD setup
-  analogWrite(V0, 25);
+  analogWrite(V0, 0);
   lcd.begin(16, 2);
 
   lcd.setCursor(3, 0);
@@ -179,7 +179,7 @@ void loop()
         if (currentMillis - previousColissionMillis >= 2 * pipeSpeed)
         {
           numberOfLives --;
-
+          pipeNumbers -- ; // if you lose a life, the score doesn't increase
           lcd.setCursor(14, 1);
           lcd.print(numberOfLives);
 

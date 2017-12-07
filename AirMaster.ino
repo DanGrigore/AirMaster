@@ -85,7 +85,7 @@ bool colissionState = false;
 void setup() 
 {
   // LCD setup
-  analogWrite(V0, 0);
+  analogWrite(V0, 100);
   lcd.begin(16, 2);
 
   lcd.setCursor(3, 0);
@@ -122,7 +122,7 @@ void setup()
   lc.setColumn(0, firstPipe.line, firstPipe.type);
 
   // Console debugging
-  Serial.begin(9600);
+//  Serial.begin(9600);
 }
 
 void loop()
@@ -206,7 +206,7 @@ void loop()
 
     // When the airplane is in the pipe, the green LED is turned on
     if (firstPipe.line == 7 || secondPipe.line == 7)
-      if(!colissionState)
+      if (!colissionState)
         analogWrite(greenLed, 1);
       else 
         analogWrite(redLed, 1);

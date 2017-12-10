@@ -13,6 +13,8 @@ In the making of this project, I used the next components:
 
 <img src="/Gallery/20171204_210451.jpg" width="60%" height="60%">
 
+Video: https://www.youtube.com/watch?v=pPxs-dBHZcA&feature=youtu.be
+
 The game has increasing level dificulty (once at x seconds, the speed will raise with some speed), score and 3-life system.
 
 ### Game instructions:

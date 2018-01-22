@@ -22,7 +22,7 @@ The game has increasing level dificulty (once at x seconds, the speed will raise
 * You participate at an aeronautic tournament, where you have to be the best! We give you an airplane, which you will control with the help of the joystick, on left-right directions. If you want to show off your skills, you just have to survive as long as you can
 
 
-### Tehnical details:
+### Technical details:
 
 * I added a button for starting the game
 

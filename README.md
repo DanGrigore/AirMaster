@@ -9,7 +9,7 @@ In the making of this project, I used the next components:
 4. A 8x8 matrix used for running and printing the game
 5. MAX7219 driver used for an easier control of the matrix
 6. 2 breadboards
-7. 2 LEDs for interactiv playing
+7. 2 LEDs for interactive playing
 
 <img src="/Gallery/20171204_210451.jpg" width="60%" height="60%">
 
